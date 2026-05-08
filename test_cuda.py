@@ -33,8 +33,6 @@ tflops = (total_ops / elapsed_time) / 1e12  # 转换为 TFLOPS
 
 print(f"Time: {elapsed_time:.3f}s, TFLOPS: {tflops:.2f}")
 
-# 3090 bfloat16 Time: 2.368s, TFLOPS: 74.29
-
 # ==================================================
 # 各显卡算力测试8192方阵计算矩阵乘法
 # ==================================================

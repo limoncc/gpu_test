@@ -19,12 +19,12 @@ for _ in range(10):
 # 精确计时
 repeats = 20
 opt_mm = torch.compile (torch.mm)
-torch.mps.synchronize()
+torch.npu.synchronize()
 start_time = time.time()
 for _ in range(repeats):
     torch.mm(a, b, out=c)
     # opt_mm(a, b, out=c)
-torch.mps.synchronize()
+torch.npu.synchronize()
 elapsed_time = time.time() - start_time
 
 # 计算 TFLOPS（注意：float16 的 FLOPS 计算需根据硬件优化）
