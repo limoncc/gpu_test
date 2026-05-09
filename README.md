@@ -17,8 +17,11 @@ L20          float16 Time:  1.514s  TFLOPS: 116.19
 A5000        float16 Time:  1.951s  TFLOPS:  90.19
 TS4000       float16 Time:  2.222s  TFLOPS:  79.18
 4090 laptop  float16 Time:  2.232s  TFLOPS:  78.82
+4070Ti       float16 Time:  2.295s  TFLOPS:  76.65
 3090         float16 Time:  2.384s  TFLOPS:  73.80
+4070         float16 Time:  3.160s  TFLOPS:  55.66
 M5Max GPU40  float16 Time:  3.549s  TFLOPS:  49.55
+4060Ti       float16 Time:  4.175s  TFLOPS:  42.12
 M5pro GPU20  float16 Time:  7.099s  TFLOPS:  24.78
 M3Max        float16 Time: 31.366s  TFLOPS:   5.60
 M1pro GPU16  float16 Time: 59.745s  TFLOPS:   2.94
